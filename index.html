@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIP Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SIP Calculator</h1>
+
+    <div class="form-group">
+      <label for="P">Enter SIP Amount (Monthly)</label>
+      <input type="number" id="P" placeholder="e.g. 5000" required>
+    </div>
+
+    <div class="form-group">
+      <label for="r">Annual Interest Rate (%)</label>
+      <input type="number" id="r" placeholder="e.g. 12" required>
+    </div>
+
+    <div class="form-group">
+      <label for="n">Number of Payments (Months)</label>
+      <input type="number" id="n" placeholder="e.g. 36" required>
+      <p class="note">Example: 3 years = 3 × 12 = 36 payments</p>
+    </div>
+
+    <button id="Calculate">Calculate</button>
+
+    <div class="result-box">
+      <p id="Result"></p>
+    </div>
+
+    <div class="formula">
+      <h2>Formula Used</h2>
+      <pre>
+FV = P × [( (1 + i)^n – 1 ) / i ] × (1 + i)
+
+Where:
+FV = Future Value
+P  = Monthly Investment
+i  = Monthly Interest Rate (Annual Rate / 12 / 100)
+n  = Number of Payments (Months)
+      </pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
