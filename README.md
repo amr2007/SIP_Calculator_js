@@ -15,6 +15,7 @@ Investing through SIPs is one of the most popular ways to grow wealth systematic
 All calculations are done using the **SIP formula**:
 
 FV = P × [((1 + i)^n – 1) / i] × (1 + i)
+**Note:** All calculated values (Invested, Returns, and Final Value) are **rounded to 2 decimal places** for clarity.
 
 Where:
 
