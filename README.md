@@ -68,7 +68,7 @@ Where:
 ---
 
 ## 🔗 Demo
-live demo:
+live demo: https://amr2007.github.io/SIP_Calculator_js/
 
 ## 👤 Author
 
